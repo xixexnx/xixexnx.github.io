@@ -2,10 +2,7 @@ github_users:
   - Syeong0013
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Syeong0013/airbnb
+  - Syeong0013/Board_Project
+  - Syeong0013/DATABASE-PROJECT
+  - Syeong0013/Auth_Manage_Project
