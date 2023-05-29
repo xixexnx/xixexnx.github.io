@@ -1053,5 +1053,14 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
     grid-column: none;
   }
 }
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 22px;
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=main.css.map */
