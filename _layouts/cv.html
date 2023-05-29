@@ -10,6 +10,12 @@ layout: default
           </header>
 
           <article>
+            <div class="col-sm mt-3 mt-md-0">
+              {% include figure.html path="assets/img/edu.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+            </div>
+          </article>
+          
+          <article>
             <div class="cv">
               {% for entry in site.data.cv %}
                 <div class="card mt-3 p-3">
