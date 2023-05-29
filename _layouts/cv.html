@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-cv
 ---
 <!-- _layouts/cv.html -->
         <div class="post">
@@ -12,12 +12,24 @@ layout: default
           <article>
             <div class="col-sm mt-3 mt-md-0">
               {% include figure.html
-                path="/assets/img/edu1.jpg"
+                path="/assets/img/cv1.jpg"
+                class="col-sm mt-3 mt-md-0"
+                alt="page.profile.image" -%}
+            </div>
+            <div class="col-sm mt-3 mt-md-0">
+              {% include figure.html
+                path="/assets/img/cv2.jpg"
+                class="col-sm mt-3 mt-md-0"
+                alt="page.profile.image" -%}
+            </div>
+            <div class="col-sm mt-3 mt-md-0">
+              {% include figure.html
+                path="/assets/img/cv3.jpg"
                 class="col-sm mt-3 mt-md-0"
                 alt="page.profile.image" -%}
             </div>
           </article>
-          
+          <!--
           <article>
             <div class="cv">
               {% for entry in site.data.cv %}
@@ -40,5 +52,5 @@ layout: default
               {% endfor %}
               </div>
           </article>
-
+        -->
         </div>
