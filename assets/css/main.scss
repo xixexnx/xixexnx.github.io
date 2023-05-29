@@ -13,3 +13,13 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+
+.title{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.subtitle{
+  font-size: 22px;
+  font-weight: bold;
+}

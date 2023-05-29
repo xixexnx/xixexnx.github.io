@@ -1,42 +1,70 @@
 ---
 layout: page
-title: 숙박 업소 웹 프로젝트
-description: a project with a background image
+title: 숙박 공유 웹 프로젝트
+description: 국비 교육 중 팀 프로젝트로 진행하였던 숙박 공유 플랫폼 DB 프로젝트를 웹 사이트로써 완성시키고자 진행하였습니다.
 img: assets/img/12.jpg
 importance: 1
 category: work
 ---
 
-에어비앤비를 레퍼런스로 한 웹 프로젝트입니다.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<a href="http://ec2-3-39-24-218.ap-northeast-2.compute.amazonaws.com:8080/">AWS EC2에 배포한 사이트로 이동하기</a>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+    <!--div class="col-sm mt-3 mt-md-0">
+        {% include video.html path="assets/video/airbnb.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div-->
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    영상 용량 관계상 영상 로딩 및 실행 시간이 오래 걸릴 수 있습니다.
 </div>
+
+<div class="row">
+    <div class="title">기술 스택</div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-sm mt-2 mt-md-0">
+        <div class="subtitle">FrontEnd</div>
+        <ul>
+            <li>JSP</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>BootStrap</li>
+            <li>dateRangePicker</li>
+        </ul>
+        <div class="subtitle">BackEnd</div>
+        <ul>
+            <li>Java</li>
+            <li>Spring Framework</li>
+            <li>MyBatis</li>
+            <li>javaScript / jQuery</li>
+            <li>Oracle</li>
+            <li>MySQL</li>
+        </ul>
+    </div>
+    <div class="col-sm mt-2 mt-md-0">
+        <div class="subtitle">IDE</div>
+        <ul>
+            <li>Eclipse</li>
+            <li>DBeaver</li>
+            <li>MySQL WorkBench</li>
+        </ul>
+        <div class="subtitle">SERVER</div>
+        <ul>
+            <li>Tomcat 9.0</li>
+            <li>AWS EC2 / linux</li>
+            <li>AWS RDS</li>
+        </ul>
+        <div class="subtitle">API</div>
+        <ul>
+            <li>Kakao Map</li>
+        </ul>
+    </div>
+</div>
+<br>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/airbnb1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
