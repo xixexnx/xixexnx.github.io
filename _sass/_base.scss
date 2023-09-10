@@ -412,7 +412,9 @@ footer.sticky-bottom {
       list-style: none;
       display: inline-block;
       padding: 1rem 0.5rem;
-      color: var(--global-text-color-light);
+      color: var(--global-text-color-light);    
+      margin-top: 0;
+      margin-bottom: 0;
     }
   }
 }
