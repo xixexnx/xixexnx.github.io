@@ -253,6 +253,7 @@ jekyll-minifier:
 jekyll-archives:
   enabled: [categories] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
+    #year: archive-year
     tag: archive-tag
     category: archive-category
   permalinks:
@@ -261,7 +262,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: ["태그"] # these tags will be displayed on the front page of your blog
-display_categories: ["dd"]
+display_categories: ["SHOP"]
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
