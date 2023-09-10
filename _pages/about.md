@@ -16,6 +16,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
+메인 콘텐츠 구역
+
 안녕하세요, 김시영입니다.
 
 스택
