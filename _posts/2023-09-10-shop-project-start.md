@@ -4,7 +4,6 @@ title: 쇼핑몰 프로젝트 (1)
 date: 2023-09-09 10:14:00-0100
 description: 쇼핑몰 프로젝트 시작하기.. 고군분투..
 categories: shop
-related_posts: false
 toc:
   sidebar: left
 ---
