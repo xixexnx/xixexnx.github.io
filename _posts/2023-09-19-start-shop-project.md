@@ -1,6 +1,6 @@
 ---
 layout: post
-title: a post with formatting and links
+title: 1234
 date: 2023-09-15 16:40:16
 description: march & april, looking forward to summer
 tags: formatting links
