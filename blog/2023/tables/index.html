@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>displaying beautiful tables with Bootstrap Tables |  김 시영</title>
+    <title>부트스트랩 테이블 예제 |  김 시영</title>
     <meta name="author" content=" 김 시영">
     <meta name="description" content="an example of how to use Bootstrap Tables">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
@@ -121,7 +121,7 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">displaying beautiful tables with Bootstrap Tables</h1>
+    <h1 class="post-title">부트스트랩 테이블 예제</h1>
     <p class="post-meta">2023 March 20</p>
     <p class="post-tags">
       <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
@@ -140,9 +140,9 @@
 
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Left aligned | Center aligned | Right aligned |
 | :----------- | :------------: | ------------: |
-| Left 1       | center 1       | right 1       |
-| Left 2       | center 2       | right 2       |
-| Left 3       | center 3       | right 3       |
+| Left 1       |    center 1    |       right 1 |
+| Left 2       |    center 2    |       right 2 |
+| Left 3       |    center 3    |       right 3 |
 </code></pre></div></div>
 
 <p>That will generate:</p>
@@ -181,7 +181,8 @@
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table</span>
   <span class="na">id=</span><span class="s">"table"</span>
   <span class="na">data-toggle=</span><span class="s">"table"</span>
-  <span class="na">data-url=</span><span class="s">"{{ '/assets/json/table_data.json' | relative_url }}"</span><span class="nt">&gt;</span>
+  <span class="na">data-url=</span><span class="s">"{{ '/assets/json/table_data.json' | relative_url }}"</span>
+<span class="nt">&gt;</span>
   <span class="nt">&lt;thead&gt;</span>
     <span class="nt">&lt;tr&gt;</span>
       <span class="nt">&lt;th</span> <span class="na">data-field=</span><span class="s">"id"</span><span class="nt">&gt;</span>ID<span class="nt">&lt;/th&gt;</span>
@@ -212,13 +213,35 @@
   <span class="na">data-pagination=</span><span class="s">"true"</span>
   <span class="na">data-search=</span><span class="s">"true"</span>
   <span class="na">data-toggle=</span><span class="s">"table"</span>
-  <span class="na">data-url=</span><span class="s">"{{ '/assets/json/table_data.json' | relative_url }}"</span><span class="nt">&gt;</span>
+  <span class="na">data-url=</span><span class="s">"{{ '/assets/json/table_data.json' | relative_url }}"</span>
+<span class="nt">&gt;</span>
   <span class="nt">&lt;thead&gt;</span>
     <span class="nt">&lt;tr&gt;</span>
       <span class="nt">&lt;th</span> <span class="na">data-checkbox=</span><span class="s">"true"</span><span class="nt">&gt;&lt;/th&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">data-field=</span><span class="s">"id"</span> <span class="na">data-halign=</span><span class="s">"left"</span> <span class="na">data-align=</span><span class="s">"center"</span> <span class="na">data-sortable=</span><span class="s">"true"</span><span class="nt">&gt;</span>ID<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">data-field=</span><span class="s">"name"</span> <span class="na">data-halign=</span><span class="s">"center"</span> <span class="na">data-align=</span><span class="s">"right"</span> <span class="na">data-sortable=</span><span class="s">"true"</span><span class="nt">&gt;</span>Item Name<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">data-field=</span><span class="s">"price"</span> <span class="na">data-halign=</span><span class="s">"right"</span> <span class="na">data-align=</span><span class="s">"left"</span> <span class="na">data-sortable=</span><span class="s">"true"</span><span class="nt">&gt;</span>Item Price<span class="nt">&lt;/th&gt;</span>
+      <span class="nt">&lt;th</span>
+        <span class="na">data-field=</span><span class="s">"id"</span>
+        <span class="na">data-halign=</span><span class="s">"left"</span>
+        <span class="na">data-align=</span><span class="s">"center"</span>
+        <span class="na">data-sortable=</span><span class="s">"true"</span>
+      <span class="nt">&gt;</span>
+        ID
+      <span class="nt">&lt;/th&gt;</span>
+      <span class="nt">&lt;th</span>
+        <span class="na">data-field=</span><span class="s">"name"</span>
+        <span class="na">data-halign=</span><span class="s">"center"</span>
+        <span class="na">data-align=</span><span class="s">"right"</span>
+        <span class="na">data-sortable=</span><span class="s">"true"</span>
+      <span class="nt">&gt;</span>
+        Item Name
+      <span class="nt">&lt;/th&gt;</span>
+      <span class="nt">&lt;th</span>
+        <span class="na">data-field=</span><span class="s">"price"</span>
+        <span class="na">data-halign=</span><span class="s">"right"</span>
+        <span class="na">data-align=</span><span class="s">"left"</span>
+        <span class="na">data-sortable=</span><span class="s">"true"</span>
+      <span class="nt">&gt;</span>
+        Item Price
+      <span class="nt">&lt;/th&gt;</span>
     <span class="nt">&lt;/tr&gt;</span>
   <span class="nt">&lt;/thead&gt;</span>
 <span class="nt">&lt;/table&gt;</span>
@@ -258,25 +281,25 @@
   
 
   <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/custom-blockquotes/">111a post with custom blockquotes</a>
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/custom-blockquotes/">코드블럭 예제</a>
   </li>
 
   
 
   <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/sidebar-table-of-contents/">a post with table of contents on a sidebar</a>
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/sidebar-table-of-contents/">사이드바 사용 예제</a>
   </li>
 
   
 
   <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/audios/">a post with audios</a>
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/audios/">오디오 예제</a>
   </li>
 
   
 
   <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/videos/">a post with videos</a>
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/videos/">비디오 예제</a>
   </li>
 
 <div id="giscus_thread" style="max-width: 800px; margin: 0 auto;">
