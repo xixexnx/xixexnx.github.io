@@ -439,7 +439,6 @@ footer.sticky-bottom {
 .tag-list {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 1rem;
 }
 .tag-list ul {
   justify-content: center;
