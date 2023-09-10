@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PROJECTS
+title: projects
 permalink: /projects/
 description: 뚝딱뚝딱
 nav: true
