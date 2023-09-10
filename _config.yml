@@ -17,7 +17,7 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your o
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://Syeong0013.github.io # the base hostname & protocol for your site
+url: https://xixexnx.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -70,7 +70,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: Syeong0013 # your GitHub user name
+github_username: xixexnx # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
@@ -121,9 +121,9 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Syeong0013 # blog_name will be displayed in your blog page
+blog_name: xixexnx # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: 학습일지...
+blog_description: 개발 기록
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -138,7 +138,7 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 giscus:
-  repo: Syeong0013/ # <your-github-user-name>/<your-github-repo-name>
+  repo: xixexnx/ # <your-github-user-name>/<your-github-repo-name>
   repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
   category: Comments # name of the category under which discussions will be created
   category_id: DIC_kwDOA5PmLc4CTBt6
@@ -151,7 +151,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: Syeong0013 # put your disqus shortname
+disqus_shortname: xixexnx # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -251,7 +251,7 @@ jekyll-minifier:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  enabled: [categories] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
     year: archive-year
     tag: archive-tag
@@ -261,7 +261,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
+display_tags: ["태그"] # these tags will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
