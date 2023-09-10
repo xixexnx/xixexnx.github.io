@@ -38,7 +38,7 @@ pagination:
       {% endfor %}
     </ul>
     <ul class="p-0 m-0">
-      {% for tag in site.display_categories %}
+      {% for category in site.display_categories %}
         <li>
           <i class="fas fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
         </li>
