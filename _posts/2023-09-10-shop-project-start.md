@@ -26,6 +26,6 @@ figma를 이용하여 와이어 프레임을 열심히 그렸다..
     </div>
 </div>
 <div class="caption">
-    메인 화면
+    메인 화면\n
     [웹/모바일]
 </div>
