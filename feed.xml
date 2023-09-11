@@ -1,11 +1,298 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://xixexnx.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xixexnx.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-10T15:07:08+00:00</updated><id>https://xixexnx.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">쇼핑몰 프로젝트 - 화면 설계</title><link href="https://xixexnx.github.io/blog/2023/shop-project-start/" rel="alternate" type="text/html" title="쇼핑몰 프로젝트 - 화면 설계" /><published>2023-09-09T11:14:00+00:00</published><updated>2023-09-09T11:14:00+00:00</updated><id>https://xixexnx.github.io/blog/2023/shop-project-start</id><content type="html" xml:base="https://xixexnx.github.io/blog/2023/shop-project-start/"><![CDATA[<p>쇼핑몰 프로젝트 시작!</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://xixexnx.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://xixexnx.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-09-11T00:44:04+00:00</updated><id>https://xixexnx.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">쇼핑몰 프로젝트 - 화면 설계</title><link href="https://xixexnx.github.io/blog/2023/shop-project-start/" rel="alternate" type="text/html" title="쇼핑몰 프로젝트 - 화면 설계" /><published>2023-09-09T11:14:00+00:00</published><updated>2023-09-09T11:14:00+00:00</updated><id>https://xixexnx.github.io/blog/2023/shop-project-start</id><content type="html" xml:base="https://xixexnx.github.io/blog/2023/shop-project-start/"><![CDATA[<p>쇼핑몰 프로젝트 - 화면 설계</p>
 
-<p>우선 화면을 먼저 설계한다.</p>
+<h2 id="카테고리-정하기">카테고리 정하기</h2>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
 
-<p>figma를 이용하여 와이어 프레임을 열심히 그린다.</p>
+  <picture>
+    
 
-<p>동적 웹 사이트로 구현하기 위해 웹/모바일으로 화면을 설계한다.</p>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/shop/category.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<p>큰 틀은 위 사진과 같다.</p>
+
+<h3 id="women-카테고리">WOMEN 카테고리</h3>
+<ul>
+  <li>여성의류
+    <ul>
+      <li>전체</li>
+      <li>NEW</li>
+      <li>상의
+        <ul>
+          <li>전체</li>
+          <li>블라우스</li>
+          <li>셔츠</li>
+          <li>슬리브리스</li>
+          <li>긴소매 티셔츠</li>
+          <li>반소매 티셔츠</li>
+          <li>맨투맨</li>
+          <li>후디</li>
+        </ul>
+      </li>
+      <li>아우터
+        <ul>
+          <li>전체</li>
+          <li>후드 집업</li>
+          <li>롱코트</li>
+          <li>점퍼</li>
+          <li>숏코트</li>
+          <li>트렌치 코트</li>
+          <li>아노락</li>
+          <li>베스트</li>
+          <li>플리스</li>
+          <li>경량패딩</li>
+          <li>퍼재킷</li>
+          <li>재킷</li>
+          <li>레더 재킷</li>
+          <li>숏패딩</li>
+          <li>나일론 재킷</li>
+          <li>하프코트</li>
+          <li>셋업수트</li>
+          <li>무스탕</li>
+          <li>롱패딩</li>
+          <li>트레이닝 재킷</li>
+          <li>데님 재킷</li>
+          <li>로브</li>
+        </ul>
+      </li>
+      <li>바지
+        <ul>
+          <li>전체</li>
+          <li>슬랙스</li>
+          <li>쇼트</li>
+          <li>코튼</li>
+          <li>슬림</li>
+          <li>데님</li>
+          <li>트레이닝</li>
+          <li>와이드</li>
+          <li>스트레이트</li>
+          <li>레깅스</li>
+        </ul>
+      </li>
+      <li>원피스
+        <ul>
+          <li>전체</li>
+          <li>롱 원피스</li>
+          <li>미니 원피스</li>
+          <li>미디 원피스</li>
+          <li>데님 원피스</li>
+        </ul>
+      </li>
+      <li>스커트
+        <ul>
+          <li>전체</li>
+          <li>미니</li>
+          <li>롱</li>
+          <li>미디</li>
+          <li>데님</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>여성가방
+    <ul>
+      <li>숄더백</li>
+      <li>크로스백</li>
+      <li>백팩</li>
+      <li>토트백</li>
+      <li>에코백</li>
+      <li>파우치</li>
+    </ul>
+  </li>
+  <li>여성신발
+    <ul>
+      <li>플랫/로퍼
+        <ul>
+          <li>전체</li>
+          <li>플랫</li>
+          <li>로퍼</li>
+        </ul>
+      </li>
+      <li>스니커즈
+        <ul>
+          <li>전체</li>
+          <li>기능성 운동화</li>
+          <li>러닝화</li>
+          <li>슬립온</li>
+        </ul>
+      </li>
+      <li>부츠
+        <ul>
+          <li>전체</li>
+          <li>앵클 부츠</li>
+          <li>플랫 부츠</li>
+          <li>레인 부츠</li>
+          <li>미드힐 부츠</li>
+          <li>니하이 부츠</li>
+          <li>하이힐 부츠</li>
+        </ul>
+      </li>
+      <li>펌프스
+        <ul>
+          <li>전체</li>
+          <li>미드힐</li>
+          <li>하이힐</li>
+        </ul>
+      </li>
+      <li>슬리퍼/뮬
+        <ul>
+          <li>전체</li>
+          <li>슬리퍼</li>
+          <li>뮬</li>
+          <li>플립플랍</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="men-카테고리">MEN 카테고리</h3>
+<ul>
+  <li>남성의류
+    <ul>
+      <li>전체</li>
+      <li>상의
+        <ul>
+          <li>전체</li>
+          <li>반소매 티셔츠</li>
+          <li>긴소매 티셔츠</li>
+          <li>피케, 카라 티셔츠</li>
+          <li>슬리브리스</li>
+          <li>긴소매 셔츠</li>
+          <li>맨투맨</li>
+          <li>후디</li>
+          <li>반소매 셔츠</li>
+          <li>집업</li>
+        </ul>
+      </li>
+      <li>하의
+        <ul>
+          <li>전체</li>
+          <li>코튼 팬츠</li>
+          <li>슬랙스</li>
+          <li>쇼트</li>
+          <li>슬림 팬츠</li>
+          <li>데님 팬츠</li>
+          <li>와이드 팬츠</li>
+          <li>트레이닝 팬츠</li>
+          <li>스트레이트 팬츠</li>
+        </ul>
+      </li>
+      <li>아우터
+        <ul>
+          <li>전체</li>
+          <li>블레이저</li>
+          <li>레더 재킷</li>
+          <li>쇼트 패딩</li>
+          <li>트렌치, 맥코트</li>
+          <li>베스트</li>
+          <li>경량패딩</li>
+          <li>하프코트</li>
+          <li>무스탕</li>
+          <li>나일론, 코치 재킷</li>
+          <li>기타 아우터</li>
+          <li>후드집업</li>
+          <li>셋업수트</li>
+          <li>숏코트</li>
+          <li>플리스</li>
+          <li>롱패딩</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>남성가방
+    <ul>
+      <li>전체</li>
+      <li>크로스백</li>
+      <li>백팩</li>
+      <li>토트백</li>
+      <li>숄더백</li>
+      <li>웨이스트백</li>
+      <li>랩탑백</li>
+      <li>에코, 캔버스백</li>
+    </ul>
+  </li>
+  <li>남성신발
+    <ul>
+      <li>전체</li>
+      <li>스니커즈
+        <ul>
+          <li>전체</li>
+          <li>로우탑</li>
+          <li>슬립온</li>
+          <li>러닝화</li>
+          <li>기능성 운동화</li>
+          <li>하이탑</li>
+        </ul>
+      </li>
+      <li>로퍼
+        <ul>
+          <li>전체</li>
+          <li>페니 로퍼</li>
+          <li>플레인 로퍼</li>
+          <li>태슬 로퍼</li>
+        </ul>
+      </li>
+      <li>구두
+        <ul>
+          <li>전체</li>
+          <li>더비</li>
+          <li>레이스업</li>
+        </ul>
+      </li>
+      <li>샌들
+        <ul>
+          <li>전체</li>
+          <li>슬리퍼</li>
+          <li>샌들</li>
+          <li>뮬</li>
+          <li>플립플랍</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>제품 카테고리를 먼저 정했는데 세상에 옷 종류가 참 많다는 것을 새삼 다시 한 번 느끼게 되었다. 🙄</p>
+
+<h3 id="my-메뉴">MY 메뉴</h3>
+<ul>
+  <li>나의 쇼핑정보
+    <ul>
+      <li>주문내역</li>
+      <li>취소/반품/교환내역</li>
+      <li>리뷰내역</li>
+    </ul>
+  </li>
+  <li>나의 계정설정
+    <ul>
+      <li>회원정보수정
+        <ul>
+          <li>회원탈퇴</li>
+        </ul>
+      </li>
+      <li>쿠폰
+        <ul>
+          <li>쿠폰 등록</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<div class="caption">
+    <div>## 메인 화면</div>
+    <div>[웹/모바일]</div>
+</div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -36,10 +323,6 @@
 </figure>
 
     </div>
-</div>
-<div class="caption">
-    <div>메인 화면</div>
-    <div>[웹/모바일]</div>
 </div>]]></content><author><name></name></author><category term="shop" /><summary type="html"><![CDATA[쇼핑몰 프로젝트 시작하기.. 고군분투..]]></summary></entry><entry><title type="html">쇼핑몰 프로젝트</title><link href="https://xixexnx.github.io/blog/2023/start-shop-project/" rel="alternate" type="text/html" title="쇼핑몰 프로젝트" /><published>2023-09-01T19:53:00+00:00</published><updated>2023-09-01T19:53:00+00:00</updated><id>https://xixexnx.github.io/blog/2023/start-shop-project</id><content type="html" xml:base="https://xixexnx.github.io/blog/2023/start-shop-project/"><![CDATA[<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>]]></content><author><name></name></author><category term="shop" /><category term="aa" /><summary type="html"><![CDATA[쇼핑몰 프로젝트 화면]]></summary></entry><entry><title type="html">코드블럭 예제</title><link href="https://xixexnx.github.io/blog/2023/custom-blockquotes/" rel="alternate" type="text/html" title="코드블럭 예제" /><published>2023-05-12T19:53:00+00:00</published><updated>2023-05-12T19:53:00+00:00</updated><id>https://xixexnx.github.io/blog/2023/custom-blockquotes</id><content type="html" xml:base="https://xixexnx.github.io/blog/2023/custom-blockquotes/"><![CDATA[<p>This post shows how to add custom styles for blockquotes. Based on <a href="https://github.com/sighingnow/jekyll-gitbook">jekyll-gitbook</a> implementation.</p>
 
 <p>We decided to support the same custom blockquotes as in <a href="https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html">jekyll-gitbook</a>, which are also found in a lot of other sites’ styles. The styles definitions can be found on the <a href="https://github.com/alshedivat/al-folio/blob/master/_sass/_base.scss">_base.scss</a> file, more specifically:</p>
